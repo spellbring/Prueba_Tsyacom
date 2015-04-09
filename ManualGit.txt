@@ -1,0 +1,18 @@
+########################  M A N U A L      D  E    G I T   ############################################
+mkdir: crear un directorio.
+touch: crea un archivo.
+###########################comandos_git#####################
+
+touch README.md // crea un archivo
+
+$git init                 // inicia un repositorio
+
+$git add 	README.md    //Se encuentra en la etapa intermedia "STAGED"
+
+$git commit -m "first commit"    // se el comentario al respositorio, aca se 									indica que es el primer repositorio
+
+$git remote add origin https://github.com/tsyacom/otroRepo.git //se usa 															  la ruta que 																esta en la 																 cuenta de github
+
+$git push -u origin master  // deja todo en el repositorio.
+
+//luego se escribe el user y la pass.
